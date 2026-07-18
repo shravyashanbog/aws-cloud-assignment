@@ -1,0 +1,15 @@
+{
+  "name": "aws-cloud-assignment",
+  "version": "1.0.0",
+  "description": "AWS Cloud Assignment - EC2, DynamoDB, Node.js API",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.0.0",
+    "@aws-sdk/lib-dynamodb": "^3.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  }
+}
