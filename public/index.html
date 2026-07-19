@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cloud Event Processing Dashboard</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>☁ Cloud Event Processing Dashboard</h1>
+
+<p>AWS | S3 | Lambda | DynamoDB | EC2</p>
+
+<div class="cards">
+
+<div class="card">
+<h2 id="totalFiles">0</h2>
+<p>Total Files</p>
+</div>
+
+<div class="card">
+<h2 id="lastUpdate">--</h2>
+<p>Last Updated</p>
+</div>
+
+<div class="card">
+<button onclick="loadData()">🔄 Refresh Data</button>
+</div>
+
+</div>
+
+<table>
+
+<thead>
+
+<tr>
+<th>File Name</th>
+<th>Bucket</th>
+<th>Status</th>
+</tr>
+
+</thead>
+
+<tbody id="tableBody">
+
+</tbody>
+
+</table>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
